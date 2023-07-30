@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="icon" type="image/x-icon" href="/assets/Alarm-Clock.mp3">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container-wrapper">
+        <!-- <div class="logo">
+            <img src="assets/alarm-clock.png">            
+            <span>Alarm Clock</span>
+        </div> -->
+        <div class="container">
+            <!-- Real Time display container -initialy set to 00:00:00 AM-->
+            <hr class="time-line-decore">
+            <div class="display-current-time">
+                <span id="hours">00</span>
+                <span>:</span>
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+                <span>&nbsp;</span>
+                <span id="session">AM</span>
+            </div>
+            <!-- Here taking time input to set the alart -->
+            <hr class="time-line-decore">
+            <div class="set-alarm-wrapper">
+                <form class="set-alarm-form">
+                    <!-- Hours input -->
+                    <select name="setHours" id="setHours" required></select>
+                    <!-- Minutes input -->
+                    <select name="setMinutes" id="setMinutes" required></select>
+                    <!-- Seconds input -->
+                    <select name="setSeconds" id="setSeconds" required></select>
+                    <!-- sessions input AM or PM -->
+                    <select name="setSession" id="setSession" required>
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+                    <!-- Button to set the alarm -->
+                    <button class="set-alarm-btn" type="submit" id="setAlarm">Set Alarm</button>
+                </form>
+            </div>
+            <!-- This is all the save alarms list container with delete button -->
+            <div class="alarm-list-container">
+                <span class="alarm-list-title">Alarms</span>
+                <div class="alarm-list" id="alarmList"></div>
+            </div>
+        </div>
+      
+    </div>
+    <!-- External javaScript file -->
+    <script src="./script.js"></script>
+</body>
+</html>
