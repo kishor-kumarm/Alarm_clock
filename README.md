@@ -2,6 +2,8 @@
 This is a Front End project using HTML, JavaScript, and CSS Only.
 
 Front End Group 1 - Coding Ninja -CC
+Hosting URL: https://kishor-kumarm.github.io/Alarm_clock/
+
 
 I'm Kishor, this Project the all about making an Alarm clock using vanilla javascript, no libraries or frameworks are allowed for Javascript.
 
