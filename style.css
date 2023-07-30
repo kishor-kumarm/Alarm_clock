@@ -128,7 +128,7 @@ select {
 .alarm {
     display: flex;
     justify-content: space-between;
-    width: 12vw;
+    width: 18vw;
     border-top: 1px solid #ffffffa0;
     padding: 5px;
 }
